@@ -13,6 +13,17 @@ dt {
     margin-right: 1em;
     padding-bottom: 0.5em;
     background: whitesmoke;
+    border-bottom: groove;
+    border-width: thin;
+    
+    
+
+}
+h2:hover {
+    background: lightyellow;
+}
+dt:hover {
+    background: lightyellow;
 }
 dd {
     margin-right: 1.5em;
@@ -21,22 +32,24 @@ dd {
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 0.5em;
-    
+}
+details summary::-webkit-details-marker {
+    display:none; 
 }
 body {
     background: whitesmoke;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 15em;
+    padding-right: 15em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div {
+section {
     background: white;
-    margin-top: 1em;
-    margin-bottom: 1em;
     margin-left: 5em;
     margin-right: 5em;
     border: groove;
+    border-width: thin;
 }
+
 h1 {
     margin-right: 2em;
     padding-right: 5em;
@@ -80,4 +93,12 @@ img {
     margin-left: 5em;
     margin-right: 5em;
 }
-
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid darkslategray;
+    float: right;
+    margin-right: 0.8em;
+  }

@@ -1,0 +1,83 @@
+nav {
+    display: inline-block;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+dt {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 0.5em;
+    background: whitesmoke;
+}
+dd {
+    margin-right: 1.5em;
+    font-size: 16px;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    
+}
+body {
+    background: whitesmoke;
+    padding-left: 10em;
+    padding-right: 10em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    background: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: groove;
+}
+h1 {
+    margin-right: 2em;
+    padding-right: 5em;
+    padding-left: 0.5em;
+    margin-left: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    border-left: groove;
+    border-top: groove;
+    font-size: 2.5em;
+    background: white;
+}
+h2 {
+    background: whitesmoke;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+form {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+}
+fieldset {
+    font-size: 18px;
+}
+legend {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 24px;
+}
+hr {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
